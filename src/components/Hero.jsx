@@ -15,11 +15,11 @@ const Hero = () => {
             <div>
                 <img className='w-full' src={bgImg} alt="/" />
             </div>
-            <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl'>
-                <p className='pb-4 font-semibold text-2xl'>Data Services</p>
-                <div className='flex justify-between flex-warp px-1'>
+            <div className='absolute flex flex-col py-4 md:min-w-[760px] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl'>
+                <p className='pb-4 font-semibold'>Data Services</p>
+                <div className='flex justify-between flex-wrap px-4'>
                     <p className='flex px-4 py-2 text-slate-500'><CloudUploadIcon className='h-6 text-indigo-600 mr-1'/>App Security</p>
-                    <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 text-indigo-600 mr-1'/>Dashboard</p>
+                    <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 text-indigo-600 mr-1'/>Dashboard Design</p>
                     <p className='flex px-4 py-2 text-slate-500'><ServerIcon className='h-6 text-indigo-600 mr-1'/>Cloud Data</p>
                     <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 text-indigo-600 mr-1'/>API</p>
                 </div>
